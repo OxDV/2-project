@@ -43,17 +43,18 @@ li a:hover {
 }
 
 .first-section {
-  width: 100%;
-  height: 92vh;
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .info-container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 46vh;
+  height: 40vh;
   background-color:#2d2642;
   color: white;
 }
@@ -75,7 +76,7 @@ li a:hover {
 
 .img-info-container img {
   width: 80%;
-  margin-top: -40px;
+  margin-top: -30px;
 }
 
 
