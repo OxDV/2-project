@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  font-family: 'Karla', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 8vh;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+header img {
+  width: 20%;
+  height: 35%;
+}
+
+nav li {
+  display: inline-block;
+}
+
+li a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #a8b1c1;
+  padding: 5px 5px;
+}
+
+li a:hover {
+  background-color: #2d2641;
+  color: white;
+}
+
+.first-section {
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  width: 100%;
+  height: 46vh;
+  background-color:#2d2642;
+  color: white;
+}
+
+.info-container h1 {
+  line-height: 200%;
+
+}
+
+.info-container p, a, h1 {
+  padding: 0 40px 0 40px;
+}
+
+
+.img-info-container {
+  display: flex;
+  justify-content: center;
+}
+
+.img-info-container img {
+  width: 80%;
+  margin-top: -40px;
+}
+
+
+
+
+/* ### Primary
+
+- Dark Violet: hsl(256, 26%, 20%)
+- Grayish Blue: hsl(216, 30%, 68%)
+
+### Neutral
+
+- Very Dark Violet: hsl(270, 9%, 17%)
+- Dark Grayish Violet: hsl(273, 4%, 51%)
+- Very Light Gray: hsl(0, 0%, 98%) */
+
+/* - Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
+- Weights: 400
+
+### Body
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700 */
+
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Karla', sans-serif; */
+
+/* ### hr
+  border: 3px solid wheat;
+  color: white; */
+
